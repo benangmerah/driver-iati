@@ -1,0 +1,28 @@
+{
+  "name": "benangmerah-driver-iati",
+  "version": "0.0.1",
+  "private": true,
+  "description": "BenangMerah driver for IATI data sources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benangmerah/driver-iati.git"
+  },
+  "keywords": [
+    "benangmerah"
+  ],
+  "author": "Andhika Nugraha (andhika.nugraha@outlook.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benangmerah/driver-iati/issues"
+  },
+  "homepage": "https://github.com/benangmerah/driver-iati",
+  "dependencies": {
+    "benangmerah-driver-base": "benangmerah/driver-base",
+    "iati2lod": "benangmerah/iati2lod.js",
+    "request": "^2.40.0"
+  }
+}
